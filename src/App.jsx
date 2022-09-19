@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   Box,
   Center,
@@ -19,7 +20,6 @@ import heroDesktop from "./assets/hero-desktop.jpg";
 import heroMobile from "./assets/hero-mobile.jpg";
 import iconArrow from "./assets/icon-arrow.svg";
 import iconError from "./assets/icon-error.svg";
-import { useState } from "react";
 
 const App = () => {
   const [email, setEmail] = useState("");
@@ -138,7 +138,9 @@ const App = () => {
                   </HStack>
                 }
               />
-              <FormControl.ErrorMessage ml={6}>Please provide a email</FormControl.ErrorMessage>
+              <FormControl.ErrorMessage ml={6}>
+                Please provide a valid email
+              </FormControl.ErrorMessage>
             </FormControl>
           </Box>
           <Box display={{ base: "block", xl: "none" }} size={16} />
