@@ -4,6 +4,6 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ---
 
-[See in Github Pages](#)
+[See in Github Pages](https://otf31.github.io/base-apparel-coming-soon/)
 
 ![image](https://user-images.githubusercontent.com/75378049/191071049-462f3908-00fa-4ddd-ba92-03ff5e663245.png)
